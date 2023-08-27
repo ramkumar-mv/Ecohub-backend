@@ -4,7 +4,7 @@ import random
 
 # Use a service account
 cred = credentials.Certificate(
-    "/Users/ramkumarmv/ecopal-backend/EcoPal-Backend/fir-db-35866-firebase-adminsdk-esi8j-fdf8032bcd.json"
+    "capstoneApi/fir-db-35866-firebase-adminsdk-esi8j-fdf8032bcd.json"
 )
 initialize_app(
     cred, {"databaseURL": "https://fir-db-35866-default-rtdb.firebaseio.com"}
