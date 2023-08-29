@@ -1,1 +1,0 @@
-web gunicorn ecohub-backend.wsgi:application --log-file -
